@@ -76,7 +76,6 @@ color: rgb(128, 119, 126);
 }
 .background-sec{
    height: 500px;
-   background-image: url(images/cake3.jpg);
    background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -124,9 +123,7 @@ transition: 1s;
    opacity: .5;
    transition: 1s;
 }
-.background-sec2{
-   background-image: url(images/cake20.jpeg);
-}
+
 .person-card{
    position: relative;
 }
