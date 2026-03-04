@@ -1,0 +1,199 @@
+.home{
+    width: 100%;
+    height: 100vh;
+     position: relative;
+}
+.nav-item{
+   position: relative;
+}
+.nav-link::before{
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   left: 0;
+   top: 0;
+   border: 1px solid rgb(235, 130, 186);
+   transition: .5s;
+   opacity: 0;
+   border-radius: 10px;
+}
+.nav-link:hover::before{
+opacity: 1;
+}
+.icons {
+   position: absolute;
+   position: fixed;
+   z-index: 1;
+   height: 100%;
+   right: 20px;
+   text-align: center;
+}
+.icons a {
+ color:rgb(244, 154, 209);
+ color: (226, 168, 192);
+ z-index: 1;
+ font-size: 30px;
+margin-top: 10px;
+padding: 5px;
+}
+.navbar{
+    height: 10%;
+}
+ form .search-btn,.btn-block,.learn-more,.translate-btn,.btn-card,.btn-container,.btn-copy-modal{
+ border: 0;
+ background-color:  rgb(226, 168, 192); 
+ color: white;
+ }
+ form .search-btn:hover , .learn-more:hover ,  .modal .btn-block:hover ,.btn-outline-light:hover,.translate-btn:hover ,.btn-card:hover,.btn-container:hover,.btn-copy-modal:hover{
+   background-color: rgb(217, 105, 152);
+   color: white;
+ }
+.btn-outline-light{
+color: rgb(226, 43, 174);
+border: 1px solid rgb(239, 121, 188);
+}
+.carousel-caption,.navbar-collapse,.d-flex a,.jumbotron  {
+    background-color: #f5eff483;
+}
+.card-header a ,.jumbotron span,.copy-modal h4{
+   font-size: 20px;
+   color:rgb(231, 136, 175)
+}
+.card-body{
+   color: rgb(157, 153, 160);
+}
+.jumbotron-translate {
+   height: 130px;
+   background-color:  rgba(231, 136, 176, 0.212);
+
+}
+.jumbotron h1{
+color: rgb(128, 119, 126);
+}
+.copy-modal h4{
+   font-size: 30px;
+}
+.background-sec{
+   height: 500px;
+   background-image: url(images/cake3.jpg);
+   background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.products-card{
+position: relative;
+border: 0;
+}
+.card-icon ,.container-podcast,.products-card{
+   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+}
+.container-podcast{ 
+   width: 90%;
+   margin: auto;
+}
+.products-card::after{ 
+   content:"";
+   width: 0;
+   height: 0;
+   position: absolute;
+   top: 0;
+   left: 0;
+background-color: rgba(171, 131, 160, 0.4);
+opacity: 0;
+}
+.products-card:hover::after{
+width: 100%;
+height: 100%;
+opacity: .5;
+transition: 1s;
+}
+.products-card::before{
+   content: "";
+   position: absolute;
+   width: 0;
+   height: 0;
+   bottom: 0;
+   right: 0;
+   background-color: rgba(171, 131, 160, 0.4);
+   opacity: 0;
+}
+.products-card:hover::before{
+   width: 100%;
+   height: 100%;
+   opacity: .5;
+   transition: 1s;
+}
+.background-sec2{
+   background-image: url(images/cake20.jpeg);
+}
+.person-card{
+   position: relative;
+}
+.person-card:hover{
+   transform: scale(.9);
+   transition: .5s;
+}
+.card-img-overlay{
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgba(0, 0, 0, 0.6);
+}
+ .person-card h4,.person-card p ,.person-card i{
+   color: white;
+   font-size: 18px;
+ }
+ h1{
+   color: rgb(128, 119, 126)
+ }
+ .container-underline {
+   width: 100px;
+   height: 5px;
+     background-color:  rgb(226, 168, 192); 
+ }
+ .container-podcast h2,.container-header,.card-icon a{
+   color:  rgb(226, 168, 192);
+ }
+ .container-podcast p,.container-podcast h6, .card-icon h6 {
+   color: rgb(158, 152, 158);
+ }
+ .container-image:hover ,.card-icon:hover{
+   transform: scale(1.02);
+   transition: .5s;
+ }
+ .container-image{
+   height: 480px;
+   width: 530px;
+ }
+ .card-icon{
+   width:180px ;
+   height: 200px;
+   flex: 0 0 auto;
+ }
+ .card-icon img{
+   width: 80px;
+ }
+.last-sec{
+   /* height: 450px; */
+   margin-top: 20px;
+      background-color:  rgba(231, 136, 176, 0.212);
+}
+.last-sec-p{
+   color: rgb(197, 178, 190);
+   font-size: 20px;
+}
+.last-sec-card{
+    flex: 0 0 auto;
+    width: 250px;
+    height: 400px;
+    margin-top: 60px;
+  
+}
+.table th ,.table td{
+color: rgb(133, 130, 132);
+font-size: 20px;
+}
+
